@@ -20,11 +20,11 @@ body {
 }
 
 .navbar-default .navbar-nav>.open>a:focus {
-    color: #ffffff !important;
+    color: black!important;
 }
 
 .homepage-nav .navbar-nav>li>a:hover {
-    color: #ffffff!important;
+    color: black!important;
     text-shadow: none;
     font-size: 30px;
 }
@@ -41,37 +41,41 @@ body {
 }
 
 #homepage .top-headline h1 {
-    font-size: 4rem !important;
+    font-size: 2rem !important;
 } 
 
 #homepage .top-headline p {
     color: 	#000000 !important;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 20px;
     margin-top: 30px;
 }
 
 .bucket-1{
     background-image: url("../images/homepage-buckets/wedding.jpg");
-    background-size: cover;
-    background-position: 100% 32%;
-    height: 450px;
+    background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
     z-index: 9999;
 }
 
 .bucket-2 {
     background-image: url("../images/homepage-buckets/family2.jpg");
-    background-size: cover;
-    background-position: 100% 50%;
-    height:450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:600px;
+	image-resolution: from-image;
     z-index: 9999;
 }
 
 .bucket-3 {
-    background-image: url("../images/homepage-buckets/event1.jpg");
-    background-size: cover;
-    background-position: 50% 40%;
-    height:450px;
+    background-image: url("../images/homepage-buckets/event6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:600px;
     z-index: 9999;
 }
 /** about-me **/
@@ -81,20 +85,31 @@ body#about-me .main-content .container .row .col-lg-6 .thumbnail {
 }
 
 .about-me-img, .about-me-content p {
-    display: block;
+    display:inline;
     max-width: 825px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+	margin-top: auto
+}
+
+.about-me-img{
+	   display:block;
+    max-width: 825px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: auto
 }
 
 .about-me-content {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     line-height: 30px;
 }
 
 .about-me-content p {
     margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 /** contact **/
@@ -219,7 +234,7 @@ body#about-me .main-content .container .row .col-lg-6 .thumbnail {
 }
 
 .internal-bucket-text {
-    margin: 40px 20px;
+    margin: 20px 20px;
     z-index: -1;
 }
 
@@ -227,13 +242,11 @@ body#about-me .main-content .container .row .col-lg-6 .thumbnail {
     text-transform: none !important;
     font-size: 13px !important;
     font-weight: 400 !important;
-    text-align: left !important;
+    text-align: center!important;
     line-height: 30px;
 }
 
-.internal-bucket-text p:nth-child(1) {
-    font-weight: 700 !important;
-}
+
 
 .package-highlight {
     width: 100%;
@@ -362,23 +375,24 @@ body#about-me .main-content .container .row .col-lg-6 .thumbnail {
 
 #vert-1, #vert-2, #vert-3, #vert-4 {
     position: relative;
-    right: 55px;
+	right: 50px;
+    
 }
 
 #vert-1 {
-    top: 164px;
+    top: 350px;
 }
 
 #vert-2 {
-    top: 276px;
+    top: 430px;
 }
 
 #vert-3 {
-    top: 264px;
+    top: 380px;
 }
 
 #vert-4 {
-    top: 140px;
+    top: 480px;
 }
 
 .main-content hr {
@@ -405,7 +419,7 @@ text-align: left;
 
 
 #kh-logo {
-    width: 420px;
+    width: 250px;
     height: auto;
 }
 
@@ -415,7 +429,7 @@ text-align: left;
 
 .navbar-default {
     border: none;
-    background: transparent;
+    background: #FFFFFF;
     z-index: 1000;
     width: 100%;
     margin: 0 auto;
@@ -460,7 +474,7 @@ button.navbar-toggle.collapsed,
 }
 
 .navbar-default .navbar-nav>li>a#logo:hover {
-    background: none !important;
+    background: #F9F9F9 !important;
 }
 
 .navbar-toggle {
