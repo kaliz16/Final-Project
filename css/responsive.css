@@ -5,7 +5,9 @@
     .navbar-default .navbar-nav>li>a {
       margin: 0 13px;
       font-size: 1.2rem;
+		
     }
+	
 
     #kh-logo {
       width: 330px;
@@ -17,6 +19,7 @@
       left: 13px;
     }
 }
+
 
 
 /*TABLETS*/
@@ -41,7 +44,7 @@
 
     .img-spacing a p {
       margin: 0;
-      padding: 30px 0;
+      padding: 10px 0;
     }
 
     .second-img-spacing {
@@ -106,6 +109,7 @@
     .navbar-default .navbar-nav>li>a {
       margin: 0 8px;
       font-size: 1.1rem;
+		
     }
 
     nav.navbar.navbar-default.on-collapse {
@@ -127,6 +131,7 @@
       width: 60%;
       margin: 0 auto;
       padding: 20px 0;
+		
     }
 
     .navbar-nav li #logo {
@@ -134,7 +139,7 @@
     }
 
     .on-collapse {
-      background-color: #f8f8f8 !important;
+		background-color: #f8f8f8 !important;
     }
 
     .navbar-default {
@@ -143,6 +148,7 @@
 
     .navbar-nav {
       margin-top: 4px;
+		
     }
 
     .homepage-nav .container-fluid .navbar-header {
@@ -163,11 +169,11 @@
     }
 
     .navbar-nav {
-      display: inline-grid;
+      display:  inline-grid;
     }
 
     .caret {
-      position: relative;
+      position:relative;
       bottom: 2px;
       right: 2px;
     }
@@ -178,7 +184,7 @@
 
     div#bs-example-navbar-collapse-1 {
       margin: 0 auto;
-      padding-left: 53px;
+      padding-left: 50px;
       text-align: center;
     }
 
@@ -210,7 +216,7 @@
     }
 
     .section-top-text {
-      margin: 50px 0;
+      margin: 30px 0;
     }
 
     footer div {
@@ -228,16 +234,19 @@
     }
 
     .top-headline h1 {
-      font-size: 2.2em;
+      font-size: .9em;
     }
 
     .section-content h2{
-      font-size: 1.8em;
+      font-size: .5em;
     }
+	
+
 
     .navbar-default .navbar-nav>li>a:hover {
       color: #262626;
     }
+	
 }
 
 /* Modal functionality on mobile */
