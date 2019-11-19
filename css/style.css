@@ -41,14 +41,14 @@ body {
 }
 
 #homepage .top-headline h1 {
-    font-size: 2rem !important;
+    font-size: 3.7rem!important;
 } 
 
 #homepage .top-headline p {
     color: 	#000000 !important;
     font-weight: 400;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 30px 0px 20px;
 }
 
 .bucket-1{
@@ -220,7 +220,7 @@ body#about-me .main-content .container .row .col-lg-6 .thumbnail {
     text-transform: none !important;
     font-weight: 400;
     color: #808080;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 30px;
 }
 
@@ -429,7 +429,7 @@ text-align: left;
 
 .navbar-default {
     border: none;
-    background: #FFFFFF;
+    background: transparent;
     z-index: 1000;
     width: 100%;
     margin: 0 auto;
@@ -460,8 +460,8 @@ button.navbar-toggle.collapsed,
 
 .navbar-default .navbar-nav>li>a {
     color: #262626;
-    font-weight: 500;
-    font-size: 2rem;
+    font-weight: 550;
+    font-size: 2.3rem;
     margin: 8px 40px 0 40px;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
@@ -484,7 +484,7 @@ button.navbar-toggle.collapsed,
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background: transparent;
+    background: white;
 }
 
 .caret {
@@ -558,7 +558,7 @@ button.navbar-toggle.collapsed,
 }
 
 .item {
-    max-height: 984px;
+    max-height:800px;
     background-position: center;
     background-size: cover;
 }
